@@ -6,7 +6,7 @@
        http://www.springframework.org/schema/beans
        https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-   <bean id="bookRepository" class="com.example.SpringMavenExercise.repository.BookRepository"></bean>
+   <bean id="bookRepository" class="com.example.SpringMavenExercise.Exercise1.aspect.repository.BookRepository"></bean>
     <bean id="bookService" class="com.example.SpringMavenExercise.service.BookService">
         <property name="bookRepository" ref="bookRepository"/>
     </bean>

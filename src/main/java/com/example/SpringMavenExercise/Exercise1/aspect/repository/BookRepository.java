@@ -1,4 +1,4 @@
-package com.example.SpringMavenExercise.repository;
+package com.example.SpringMavenExercise.Exercise1.aspect.repository;
 
 public class BookRepository {
     public void displayBooks() {

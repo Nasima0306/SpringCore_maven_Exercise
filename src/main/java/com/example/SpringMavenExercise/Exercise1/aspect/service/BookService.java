@@ -1,6 +1,6 @@
-package com.example.SpringMavenExercise.service;
+package com.example.SpringMavenExercise.Exercise1.aspect.service;
 
-import com.example.SpringMavenExercise.repository.BookRepository;
+import com.example.SpringMavenExercise.Exercise1.aspect.repository.BookRepository;
 
 public class BookService {
     BookRepository bookRepository;
