@@ -1,13 +1,11 @@
-package com.example.SpringMavenExercise;
+package com.example.SpringMavenExercise.Exercise5;
 
-import com.example.SpringMavenExercise.Exercise2.BookService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+public class LibraryManagementSytsem {
+    public static void main(String[] args) {
 
-public class SpringMavenExerciseApplication {
-
-	public static void main(String[] args) {
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("ex5.xml");
 
@@ -15,6 +13,5 @@ public class SpringMavenExerciseApplication {
                 context.getBean("bookService", BookService.class);
 
         service.showBooks();
-	}
-
+    }
 }
